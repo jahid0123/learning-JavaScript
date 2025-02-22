@@ -41,4 +41,6 @@ let releventCatagories = removeTransaction.map((val) =>{
 
 let sum2 = releventCatagories.reduce((accu, current) => {
     return accu + current.amount;}, 0)
+
 console.log(`The sum of sales amount after reduce: ${sum2}`);
+document.writeln(`The sum of sales amount after reduce: ${sum2}`);
